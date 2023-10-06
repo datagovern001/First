@@ -4,4 +4,8 @@ i=1
 while i<3:
   num = int(input())
   if x==num:
-    print("You won")
+    print("you won")
+    i+=1
+  else:
+    print("Lose")
+    i+=4
